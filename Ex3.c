@@ -19,6 +19,9 @@ void toss() {
 
 int main() {
     srand(time(NULL));
+    printf("Who are you?\n");
+    printf("> John\n");
+    printf("Hello, John!\n");
 
     printf("Tossing a coin...\n");
 
