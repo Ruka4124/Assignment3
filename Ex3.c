@@ -18,15 +18,15 @@ void toss() {
 
 void judge(){
 if(h>t){
-    printf("John won!\n");
-}else printf("John lost!\n");
+    printf("Rui won!\n");
+}else printf("Rui lost!\n");
 }
 
 int main() {
     srand(time(NULL));
     printf("Who are you?\n");
-    printf("> John\n");
-    printf("Hello, John!\n");
+    printf("> Rui\n");
+    printf("Hello, Rui!\n");
 
     printf("Tossing a coin...\n");
 
