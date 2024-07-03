@@ -16,6 +16,11 @@ void toss() {
         }
 }
 
+void judge(){
+if(h>t){
+    printf("John won!\n");
+}else printf("John lost!\n");
+}
 
 int main() {
     srand(time(NULL));
@@ -32,6 +37,8 @@ int main() {
     toss();
 
     printf("Heads: %d, Tails: %d\n",h,t);
+
+    judge();
 
     return 0;
 }
